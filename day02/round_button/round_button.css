@@ -1,0 +1,31 @@
+.rounds {
+  padding-top: 15px;
+}
+
+.round {
+  color: white;
+  background-color: skyblue;
+
+  /* 둥글게 */
+  border-radius: 50%;
+  padding: 14px;
+}
+
+.round_1 {
+  color: white;
+  background-color: black;
+  /* 둥글게 */
+  border-radius: 50%;
+  padding: 15px;
+}
+.email {
+  color: white;
+  font-size: 20px;
+}
+
+.apple {
+  color: white;
+  font-size: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+}

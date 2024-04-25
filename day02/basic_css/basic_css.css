@@ -1,0 +1,41 @@
+/* 타켓 {어떻게 꾸며줄까} */
+
+h1 {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  background-color: rgb(255, 0, 255);
+  color: rgba(25, 3, 3, 0.417);
+  font-size: 20px;
+}
+
+h3 {
+  background-color: rgb(39, 32, 78);
+  color: rgba(255, 255, 255, 0.668);
+  font-size: 20px;
+}
+
+a {
+  background-color: aquamarine;
+}
+
+/* div {
+  background-color: yellow;
+}
+
+span {
+  background-color: skyblue;
+} */
+
+div {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
