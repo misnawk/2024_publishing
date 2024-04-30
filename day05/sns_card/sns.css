@@ -1,0 +1,112 @@
+.card {
+  margin-top: 100px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 900px;
+  padding: 40px 10px 40px 10px;
+  border-radius: 50px;
+  align-items: center;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transition: all 0, 5s;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.text > span {
+  font-family: "KyoboHandwriting2023wsa";
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* 가운데로 정렬한다. */
+  object-position: 50% center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.content > .tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50px;
+  width: 500px;
+  height: 70px;
+  font-family: "KyoboHandwriting2023wsa";
+  font-size: 20px;
+}
+
+.tag > span {
+  font-weight: 800;
+}
+
+.logo {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.logobox {
+  font-size: 40px;
+}
+
+.logobox:hover {
+  color: #dbdbdb;
+  font-size: 80px;
+}
+
+.img > img:hover {
+  transform: scale(1.2);
+}
+
+.card:hover {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.text > span:hover {
+  font-size: 30px;
+}
+
+.text > span {
+  transition: all 0.5s;
+}
+
+.tag > span:hover {
+  font-size: 30px;
+}
+
+.tag > span {
+  transition: all 0.5s;
+}
