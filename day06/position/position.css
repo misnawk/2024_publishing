@@ -1,0 +1,57 @@
+body {
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 300px;
+}
+
+.up {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: aqua;
+}
+
+.down {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: bisque;
+}
+
+.up_1 {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: blue;
+  z-index: 2;
+}
+
+.down_1 {
+  position: fixed;
+  width: 500px;
+  height: 300px;
+  background-color: red;
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.title_1 {
+  /* 자기 부모 기준으로 움직임 */
+  /* top:0, left:0, bottom:0 right:0 */
+
+  /* absolute : 단 모든 부모가 static이면 웹 브라우저 기준 */
+  /* absolute : 단 모든 부모가 static 아니라면 자기 부모 기준 */
+
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}

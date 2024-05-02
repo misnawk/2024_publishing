@@ -1,0 +1,66 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  border: 1px solid #e5e5e5;
+  padding: 10px 0px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+}
+
+.navigetion {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logobox {
+  height: 100%;
+  width: 80px;
+}
+
+.logobox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.siteBox {
+  display: flex;
+  gap: 80px;
+}
+
+.pages {
+  display: flex;
+  gap: 20px;
+}
+
+.languages {
+  display: flex;
+  gap: 20px;
+}
+
+.pages > span {
+  padding: 12px 10px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.pages > span:hover {
+  background-color: #e5e5e5;
+}
+
+.languages > span {
+  padding: 12px 10px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.languages > span:hover {
+  background-color: #e5e5e5;
+}
