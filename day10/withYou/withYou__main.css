@@ -1,0 +1,13 @@
+main {
+  position: relative;
+  height: 100vw;
+  overflow-y: scroll;
+  /* scroll-snap-type: mandatory; */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  top: 200px;
+}
+
+main > section {
+  width: 100vw;
+}
