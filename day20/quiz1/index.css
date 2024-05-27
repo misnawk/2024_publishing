@@ -1,15 +1,19 @@
-.grid {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
-.border {
+.grid-item {
+  display: flex;
+  align-items: center;
   border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .imgBox {
-  display: flex;
-  align-items: center;
+  margin-right: 10px;
 }
 
 .name {
@@ -18,8 +22,6 @@
   font-weight: 600;
 }
 
-
-.gap{
-  gap: 5px;
+.infoBox {
+  flex: 1;
 }
-

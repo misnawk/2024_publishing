@@ -1502,44 +1502,23 @@ const data = [
     language: "Yiddish",
   },
 ];
-
 const box = document.querySelector(".box");
+box.classList.add("grid-container");
+
 data.forEach((v) => {
   box.insertAdjacentHTML(
     "beforeend",
     `
-<div class= "grid border gap">
-
-    <div class="border">
+      <div class="grid-item">
         <div class="imgBox">
-            <img src="${v.avatarimg}" width="100" height="50">
+          <img src="${v.avatarimg}" width="100" height="50">
         </div>
-        
         <div class="infoBox">
-            <p class = "name">Name: ${v.name}</p>
-            <p>Job: ${v.job}</p>
-            <p>Language: ${v.language}</p>
+          <p class="name"> ${v.name}</p>
+          <p>Job: ${v.job}</p>
+          <p>Language: ${v.language}</p>
         </div>
-    </div>
-
-
-<div class=>
-    <div class="imgBox">
-        <img src="${v.avatarimg}" width="100" height="50">
-    </div>
-    
-    <div class="infoBox">
-        <p class = "name">Name: ${v.name}</p>
-        <p>Job: ${v.job}</p>
-        <p>Language: ${v.language}</p>
-    </div>
-</div>
-
-
-
-
-
-</div>
-      `
+      </div>
+    `
   );
 });
