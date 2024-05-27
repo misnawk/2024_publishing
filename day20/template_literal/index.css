@@ -1,0 +1,28 @@
+.border {
+  border: 1px solid black;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellowgreen {
+  background-color: yellowgreen;
+}
+
+.book-title {
+  font-size: 1.5em;
+  color: yellowgreen;
+  margin-bottom: 5px;
+}
+
+.book-author {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.book-price {
+  font-size: 1em;
+  color: red;
+}
