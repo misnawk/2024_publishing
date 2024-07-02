@@ -1,0 +1,27 @@
+package JAVA_Day02;
+
+public class Array {
+    public static void main(String[] args) {
+        //배열[같은 타입의 변수가 여러개 있는 것]
+        //Type[] name = new Type[size]
+
+        // 정수형 배열 사이즈 10 만들고
+        // 0~9 인덱스에 10, 20, 30, 40, 50 ... 100 넣기
+        int[]num = new int[10];
+
+        for(int i=0; i<10; i++){
+            num[i] = (i+1)*10;
+        }
+        
+        for(int b : num){
+            System.out.println(b);
+        }
+        
+        //for[언제 끝날지 알고] vs while[언제 끝날지 모름]
+        //프로그래머가 끝을 정할수 있고 vs 유저가 끝을 정할 수 있음
+
+        //if[optional] vs switch[mandatory]
+
+
+    }
+}
